@@ -4,16 +4,17 @@
 <html>
     <head>
         <title>App Name - @yield('title')</title>
-        <link rel='stylesheet' type='text/css' href='css/app.css'/>
+        <!-- <link rel='stylesheet' type='text/css' href='/css/all.min.css'/> -->
+        <link rel='stylesheet' type='text/css' href='/css/app.css'/>
+        <!-- <link rel='stylesheet' type='text/css' href='/css/show.scss'/> -->
+
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+        <script src="/js/app.js"></script>
     </head>
     <body>
-        @section('sidebar')
-            This is the master sidebar.
-        @show
-
+        @include('layouts.js')
         <div class="container">
             @yield('content')
         </div>
-        app.blade測試文字，來自app.blade
     </body>
 </html>

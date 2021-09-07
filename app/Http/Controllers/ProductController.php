@@ -61,9 +61,9 @@ class ProductController extends Controller
 
     private function getProducts(){
         return[
-            ['id' => 1, 'image_url' => asset("images/wd01.png")],
-            ['id' => 2, 'image_url' => asset("images/lamigo01.jpg")],
-            ['id' => 3, 'image_url' => asset("images/lanew01.jpg")]
+            ['id' => 1, 'price'=>1, 'name'=>'味全龍', 'image_url' => asset("images/wd01.png")],
+            ['id' => 2, 'price'=>1000, 'name'=>'桃猿', 'image_url' => asset("images/lamigo01.jpg")],
+            ['id' => 3, 'price'=>1000000, 'name'=>'高熊', 'image_url' => asset("images/lanew01.jpg")]
         ];
     }
 }

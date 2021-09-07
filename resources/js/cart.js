@@ -1,11 +1,3 @@
-require('./bootstrap');
-
-function printMessage( message ){
-    document.getElementById('message').innerHTML = message
-}
-
-
-
 function initAddToCart(){
 
     var addToCartBtn = document.querySelector('#addToCart');
@@ -23,6 +15,4 @@ function initAddToCart(){
     }
 }
 
-window.printMessage = printMessage
-window.initAddToCart = initAddToCart
-alert("test");
+export {initAddToCart}

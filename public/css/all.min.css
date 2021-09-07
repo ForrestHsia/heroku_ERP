@@ -1,0 +1,36 @@
+@import "./show.scss";
+
+#index{
+    h1{color:rgb(14, 14, 233); font-size: 25px;}
+    h0{color:red; font-size: 18px;}
+    h13{color:rgba(0, 128, 0, 0.383); font-size: 60px;}
+    h5{color:rgb(212, 39, 235); font-size: 24px;}
+    h7{color:rgb(235, 39, 55); font-size: 20px;}
+    h6{color:rgba(127, 255, 212, 0.685); font-size: 30px;}
+    #a{
+        color: rgba(255, 68, 0, 0.911);
+        font-size: 60px;
+    }
+
+    #b{
+        color: rgb(255, 192, 203);
+        font-size: 18px;
+    }
+}
+#show{
+    h1{color:rgba(0, 128, 0, 0.651); font-size: 25px;}
+    h0{color:rgba(153, 205, 50, 0.514); font-size: 18px;}
+
+    #a{
+        color: rgba(128, 0, 128, 0.527);
+        font-size: 60px;
+    }
+
+    #b{
+        color: rgba(165, 42, 42, 0.534);
+        font-size: 18px;
+    }
+}
+body{
+    background: url("../images/lalaland-projection1.jpg");
+}

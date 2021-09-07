@@ -1,9 +1,4 @@
-require('./bootstrap');
-
-function printMessage( message ){
-    document.getElementById('message').innerHTML = message
-}
-
+// import { initAddToCart } from './cart';
 
 
 function initAddToCart(){
@@ -23,6 +18,8 @@ function initAddToCart(){
     }
 }
 
-window.printMessage = printMessage
-window.initAddToCart = initAddToCart
-alert("test");
+// function printMessage( message ){
+//     document.getElementById('message').innerHTML = message
+// }
+//window.printMessage = printMessage
+//window.initAddToCart = initAddToCart
