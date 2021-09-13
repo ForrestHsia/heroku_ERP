@@ -1,8 +1,2 @@
-<p id='message'></p>
-
-<script>
-
-printMessage("測試133333333333")
-initAddToCart
-
-</script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+<script src="{{ mix('js/app.js') }}"></script>

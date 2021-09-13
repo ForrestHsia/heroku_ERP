@@ -4,17 +4,13 @@
 <html>
     <head>
         <title>App Name - @yield('title')</title>
-        <!-- <link rel='stylesheet' type='text/css' href='/css/all.min.css'/> -->
         <link rel='stylesheet' type='text/css' href='/css/app.css'/>
-        <!-- <link rel='stylesheet' type='text/css' href='/css/show.scss'/> -->
-
-        <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
-        <script src="/js/app.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     </head>
     <body>
         @include('layouts.js')
-        <div class="container">
-            @yield('content')
-        </div>
+        @yield('content')
+        @section('inline_js')
+        @show
     </body>
 </html>

@@ -11,15 +11,17 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.scripts(['resources/js/app.js'], 'public/js/app.js')
+mix.js('resources/js/app.js', 'public/js/app.js').react()
     .sass('resources/css/app.scss', 'public/css/')
     // .sass('resources/css/show.scss', 'public/css/');
+    // .copyDirectory('resources/images','public/images');
 
+
+// 壓縮後的mix css檔
 // mix.styles([
 //     'resources/css/app.scss',
 //     'resources/css/show.scss',
 //     'resources/css/back_ground.css'
 // ],'public/css/all.min.css')
-// .copyDirectory('resources/images','public/images');
 
 

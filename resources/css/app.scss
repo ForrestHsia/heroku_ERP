@@ -1,6 +1,10 @@
 @import "./show.scss";
 //@import "./back_ground.css";
 
+body{
+    font-family: 'Dancing Script', cursive;
+}
+
 #index{
     h1{color:rgb(14, 14, 233); font-size: 25px;}
     h0{color:red; font-size: 18px;}
