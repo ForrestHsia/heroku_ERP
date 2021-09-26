@@ -13,7 +13,7 @@ class PageController extends Controller
         return view('home',
         [
             'ver' => $versa,
-            'level' => $level
+            'levela' => $level
         ]);
     }
 }

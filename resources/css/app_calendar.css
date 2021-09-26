@@ -1,0 +1,10 @@
+h1{color:rgb(14, 14, 233); font-size: 25px;}
+h0{color:red; font-size: 18px;}
+
+#b{
+    color: purple;
+    font-size: 18px;
+}
+
+table { border-collapse: collapse; }
+tr:nth-child(3) { border: solid thin blue;}

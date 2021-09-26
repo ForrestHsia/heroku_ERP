@@ -17,15 +17,18 @@ Route::get('/', function () {
     return view('welcome');
 });*/
 
-Route::get('/hom', function ()
+Route::get('/', function ()
 {  
-    $versa = $_GET['versee'];
-    $level = $versa*2;
-    return view('home',
-    [
-        'ver' => $versa,
-        'level' => $level
-    ]);
+    return view('home');
+});
+
+Route::get('/calendar', function ()
+{  
+    return view('calendar');
+});
+
+Route::get('foo',function(){
+    return 'Hello fuck you';
 });
 
 use App\Http\Controllers\PageController;

@@ -12,6 +12,8 @@ function getCart(){
     // }
     // return cart
     //
+
+    
     //以下是寫法2
     return (!cart) ? {} : JSON.parse(cart)
 }

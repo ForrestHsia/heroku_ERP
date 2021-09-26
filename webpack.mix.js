@@ -13,6 +13,7 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js/app.js').react()
     .sass('resources/css/app.scss', 'public/css/')
+    .sass('resources/css/app_calendar.scss', 'public/css/')
     // .sass('resources/css/show.scss', 'public/css/');
     // .copyDirectory('resources/images','public/images');
 

@@ -1,7 +1,7 @@
 h1{color:rgb(14, 14, 233); font-size: 25px;}
 h0{color:red; font-size: 18px;}
 h13{color:rgba(0, 128, 0, 0.383); font-size: 60px;}
-h5{color:rgb(212, 39, 235); font-size: 24px;}
+h5{color:rgba(235, 144, 39, 0.877); font-size: 48px;}
 h7{color:rgb(235, 39, 55); font-size: 20px;}
 #a{
     color: purple;
@@ -9,6 +9,6 @@ h7{color:rgb(235, 39, 55); font-size: 20px;}
 }
 
 #b{
-    color: rgb(255, 192, 203);
+    color: purple;
     font-size: 18px;
 }
